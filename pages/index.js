@@ -3,6 +3,7 @@
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Section from '../components/Section'
+import BenefitCard from '../components/BenefitCard'
 
 export default function Home() {
   return (
@@ -40,6 +41,34 @@ export default function Home() {
         <img
           src="https://quantecportal.com/wp-content/uploads/2025/03/image-18-300x300.webp"
           alt="Terapia Quântica: Como Funciona"
+        />
+      </Section>
+
+      {/* Passo 3: Seção 'Benefícios' */}
+      <Section id="beneficios" columns={3} layout="grid">
+        <BenefitCard
+          title="🧘‍♀️ Alívio Progressivo do Estresse"
+          description="Sinta a diferença no seu ritmo interno. O tratamento busca favorecer um estado de maior equilíbrio e tranquilidade ao longo do tempo."
+        />
+        <BenefitCard
+          title="⚡ Energia Renovada para Seu Dia a Dia"
+          description="Muitos relatam melhora gradual na disposição. A terapia energética pode colaborar com o equilíbrio no cotidiano."
+        />
+        <BenefitCard
+          title="🛡️ Fortalecimento do Sistema Imunológico"
+          description="O equilíbrio energético pode melhorar o funcionamento do organismo. Muitas pessoas relatam bem-estar durante o processo."
+        />
+        <BenefitCard
+          title="🌙 Melhora na Qualidade do Sono"
+          description="Alguns clientes percebem mudanças positivas no sono, como sensação de descanso mais profundo e regular."
+        />
+        <BenefitCard
+          title="🧠 Aumento da Clareza Mental"
+          description="O reequilíbrio energético pode favorecer estados de maior concentração, contribuindo para decisões mais conscientes no dia a dia."
+        />
+        <BenefitCard
+          title="💖 Harmonia Emocional Duradoura"
+          description="O tratamento atua de forma sutil no campo emocional, podendo favorecer estabilidade interna e maior percepção de equilíbrio ao longo do tempo."
         />
       </Section>
     </>
