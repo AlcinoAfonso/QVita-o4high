@@ -1,3 +1,5 @@
+// pages/index.js
+
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Section from '../components/Section'
@@ -31,7 +33,7 @@ export default function Home() {
         <div>
           <h2>Terapia Quântica: Como Funciona</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li>🧠 A terapia busca identificar padrões sutis — emocionais, mentais, físicos ou energéticos — que influenciam a vida da pessoa, mesmo sem que ela perceba de forma consciente..</li>
+            <li>🧠 A terapia busca identificar padrões sutis — emocionais, mentais, físicos ou energéticos — que influenciam a vida da pessoa, mesmo sem que ela perceba de forma consciente.</li>
             <li>⚖️ Esses desequilíbrios podem estar por trás de conflitos, bloqueios ou desconfortos. Lidar com essas causas ajuda a promover mudanças reais no cotidiano.</li>
             <li>🔄 Cada pessoa reage de forma única, por isso os resultados podem variar de acordo com a experiência e o momento de cada um.</li>
             <li>🌱 A terapia não é uma promessa, mas tende a funcionar melhor quando há abertura para se observar, escutar a si mesmo e aplicar pequenas mudanças conscientes no seu dia a dia.</li>
@@ -194,8 +196,9 @@ export default function Home() {
         <WaButton
           label="Saiba como é feito na prática"
           phone="5521979658483"
-          message="Gostaria de saber mais sobre a terapia"        
-      </Section>      
+          message="Gostaria de saber mais sobre a terapia"
+        />
+      </Section>
     </>
   )
 }
