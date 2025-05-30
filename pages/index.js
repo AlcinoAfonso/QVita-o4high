@@ -194,11 +194,8 @@ export default function Home() {
         <WaButton
           label="Saiba como é feito na prática"
           phone="5521979658483"
-          message="Gostaria de saber mais sobre a terapia"
-        />
-      </Section>
-
-      <Section id="footer" columns={2} />
+          message="Gostaria de saber mais sobre a terapia"        
+      </Section>      
     </>
   )
 }
