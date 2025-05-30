@@ -24,6 +24,12 @@ export default function Home() {
         buttonPhone="5521979658483"
         buttonMessage="Teste"
       />
+
+      {/* Debug: Exibe texto puro para validar renderização */}
+      <div className="p-8 text-center">
+        <h1>🚀 Debug: componente Hero ou página não estão carregando?</h1>
+        <p>Se você vê este texto, o React está funcionando.</p>
+      </div>
     </>
   )
 }
