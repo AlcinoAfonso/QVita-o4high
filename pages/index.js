@@ -176,7 +176,29 @@ export default function Home() {
             },
             {
               question: 'Como é realizado o tratamento à distância?',
-              answer: 'Utilizamos tecnologia avançada que permite enviar frequências vibracionais específicas para você, independentemente de sua localização. Não é necessário estar fisicamente presente.'
+              answer: 'Utilizamos tecnologia avançada que permite enviar frequências vibracionais específicas para você, independentemente de sua localização. Não é necessário estar fisicamente presente.',
             },
             {
-              question: 'Qual a diferença entre Quantum Vita e outras terapias altern...
+              question: 'Qual a diferença entre Quantum Vita e outras terapias alternativas?',
+              answer: 'Utilizamos tecnologia Quantec de ponta, oferecendo tratamentos personalizados e baseados em princípios da física quântica, com resultados mensuráveis.'
+            },
+            {
+              question: 'A terapia quântica pode tratar problemas emocionais?',
+              answer: 'Sim, nossa abordagem holística trabalha com o equilíbrio energético, que impacta diretamente nas emoções. Muitos clientes relatam melhora significativa em questões emocionais.'
+            }
+          ]}
+        />
+      </Section>
+
+      <Section id="cta-final" columns={1}>
+        <h2>Veja como funciona antes de decidir pelo tratamento.</h2>
+        <h3>O processo com o Quantec é claro: dados objetivos, etapas bem definidas e total respeito ao seu ritmo pessoal.</h3>
+        <WaButton
+          label="Saiba como é feito na prática"
+          phone="5521979658483"
+          message="Gostaria de saber mais sobre a terapia"
+        />
+      </Section>
+    </>
+  )
+}
