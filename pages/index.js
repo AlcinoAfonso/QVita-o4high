@@ -28,7 +28,7 @@ export default function Home() {
       />
 
       {/* Passo 2: Seção 'Como Funciona' */}
-      <Section id="sec-como-funciona" columns={2}>
+      <Section id="sec-como-funciona" columns={2} layout="grid">
         <div>
           <h2>Terapia Quântica: Como Funciona</h2>
           <ul className="list-disc list-inside space-y-2">
