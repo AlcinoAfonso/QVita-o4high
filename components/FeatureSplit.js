@@ -11,7 +11,7 @@ export default function FeatureSection({
   return (
     <section className="bg-white py-16">
       {/* Título centralizado acima do grid */}
-      <div className="max-w-screen-xl mx-auto px-4 md:px-6 mb-16">
+      <div className="max-w-screen-xl mx-auto px-4 md:px-6 mb-24">
         <h2 className="text-3xl md:text-4xl font-extrabold text-brand text-center">
           {title}
         </h2>
@@ -53,7 +53,7 @@ export default function FeatureSection({
       </div>
 
       {/* Botão WhatsApp centralizado abaixo do bloco */}
-      <div className="mt-16 text-center">
+      <div className="mt-24 text-center">
         <WaButton
           label="Entenda os Benefícios"
           phone="5521979658483"
